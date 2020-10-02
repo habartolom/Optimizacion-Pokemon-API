@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Pöke API</title>
+</head>
+
+<body>
+    <div class="header position-fixed-top position-fixed">
+        <header class="bg-dark text-center headerStyle">
+            <h1>Pokemon API por @sanchezcode</h1>
+            <a href="index.html">Rick and morty API</a>
+            <ul id="paginacion" class="pagination"></ul>
+        </header>
+    </div>
+    <!-- Contenido de personajes -->
+    <div class="container position-relative">
+        <div id="datosPersonajes" class="row datosPersonajes position-absolute"></div>
+    </div>
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/getPokeapi.js"></script>
+</body>
+
+</html>
